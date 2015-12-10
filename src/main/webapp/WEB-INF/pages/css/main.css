@@ -1,0 +1,24 @@
+h1 {
+    font-family: Courier New;
+}
+div {
+    padding: 5px;
+}
+table, table td, table td tr {
+    border: 1px inset orange;
+    padding: 5px;
+
+}
+#main{
+    border: 1px solid black;
+    padding: 10px;
+    margin: auto;
+    width: 600px;
+    border-radius: 12px;
+}
+body{
+    border: 1px solid orange;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+}

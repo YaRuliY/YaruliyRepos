@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com</OriginalElement>
+  <nodes>
+    <node x="660.0" y="715.0">com.Model.Order</node>
+    <node x="716.0" y="463.0">com.yaruliy.GetterController</node>
+    <node x="321.0" y="234.0">com.dao.UserServiceImplementation</node>
+    <node x="321.0" y="0.0">com.dao.UserService</node>
+    <node x="0.0" y="0.0">com.dao.UserDAO</node>
+    <node x="0.0" y="463.0">com.Model.User</node>
+    <node x="0.0" y="855.0">com.yaruliy.HelloController</node>
+    <node x="414.0" y="715.0">com.yaruliy.OrderController</node>
+    <node x="0.0" y="715.0">com.Model.OrderProducts</node>
+    <node x="212.0" y="715.0">com.Model.Product</node>
+    <node x="0.0" y="234.0">com.dao.UserDAOImplementation</node>
+    <node x="414.0" y="463.0">com.yaruliy.UserController</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.yaruliy.GetterController" target="com.dao.UserService">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.dao.UserServiceImplementation" target="com.dao.UserDAO">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.dao.UserDAOImplementation" target="com.dao.UserDAO">
+      <point x="0.0" y="-92.0" />
+      <point x="0.0" y="92.0" />
+    </edge>
+    <edge source="com.dao.UserServiceImplementation" target="com.dao.UserService">
+      <point x="0.0" y="-92.0" />
+      <point x="0.0" y="92.0" />
+    </edge>
+    <edge source="com.yaruliy.OrderController" target="com.dao.UserService">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.yaruliy.UserController" target="com.Model.User">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.yaruliy.UserController" target="com.dao.UserService">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="415.5" y="283.0" />
+  <SelectedNodes>
+    <node>com.Model.Order</node>
+    <node>com.yaruliy.GetterController</node>
+    <node>com.dao.UserServiceImplementation</node>
+    <node>com.dao.UserService</node>
+    <node>com.dao.UserDAO</node>
+    <node>com.Model.User</node>
+    <node>com.yaruliy.HelloController</node>
+    <node>com.yaruliy.OrderController</node>
+    <node>com.Model.OrderProducts</node>
+    <node>com.Model.Product</node>
+    <node>com.dao.UserDAOImplementation</node>
+    <node>com.yaruliy.UserController</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
