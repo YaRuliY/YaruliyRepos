@@ -7,7 +7,7 @@
         http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
 
     <context:component-scan base-package="com.Controller"/>
-    <context:component-scan base-package="com.DAO"/>
+    <context:component-scan base-package="com.dao"/>
     <mvc:annotation-driven />
     <mvc:resources mapping="css/**" location="WEB-INF/pages/css/"/>
     <tx:annotation-driven transaction-manager="hibernateTransactionManager" />
@@ -45,8 +45,8 @@
         <property name="sessionFactory" ref="sessionFactory" />
     </bean>
 
-    <bean id="userService" class="com.DAO.UserServiceImplementation"/>
-    <bean id="userDAO" class="com.DAO.UserDAOImplementation"/>
+    <bean id="userService" class="com.dao.UserServiceImplementation"/>
+    <bean id="userDAO" class="com.dao.UserDAOImplementation"/>
 
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/pages/"/>
