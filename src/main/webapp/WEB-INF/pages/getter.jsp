@@ -24,8 +24,8 @@
 							var row = table.insertRow(i+1);
 							row.insertCell(0).innerHTML = data[i][0];
 							row.insertCell(1).innerHTML = data[i][2];
-							row.insertCell(2).innerHTML = data[i][4];
-							row.insertCell(3).innerHTML = data[i][3];
+							row.insertCell(2).innerHTML = data[i][3];
+							row.insertCell(3).innerHTML = data[i][4];
 							row.insertCell(4).innerHTML = data[i][1];
 							row.insertCell(data[i].length).innerHTML =
 									"<input type=\"button\" value=\"D\" onclick=\"deleteUserByID(" + data[i][0] + ")\"/>"+
