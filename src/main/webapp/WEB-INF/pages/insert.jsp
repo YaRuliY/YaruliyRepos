@@ -3,7 +3,7 @@
   <head>
     <title>insert user</title>
     <link rel="stylesheet" href="css/main.css">
-    <script type="text/javascript" src="css/http_code.jquery.com_jquery-1.11.3.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.3.js"></script>
     <script type="text/javascript">
       function doInsert(){
         $.post("/insert/user.do",
