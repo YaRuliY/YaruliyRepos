@@ -81,7 +81,7 @@ public class UserDAOImplementation implements UserDAO{
     @Override
     @Transactional
     public List<Order> getOrders() {
-        List<Integer> idList = sessionFactory.getCurrentSession().createSQLQuery("SELECT order_id FROM orderu").list();
+        List<Integer> idList = sessionFactory.getCurrentSession().createSQLQuery("SELECT order_id FROM orders").list();
         List<Order> orders = new ArrayList<Order>();
         for (int i=0;i<idList.size();i++){
             Order temp = (Order) sessionFactory.getCurrentSession().load(Order.class, idList.get(i));
@@ -124,7 +124,7 @@ public class UserDAOImplementation implements UserDAO{
                 orders.get(i).setProducts("Name: "+temp.getName()+"Type: "+temp.getType());
             }
         }
-*/
+        */
         return orders;
     }
 }
