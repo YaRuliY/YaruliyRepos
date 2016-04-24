@@ -31,4 +31,4 @@
 *.war
 *.ear
 
-GenerJavaDoc
+/GenerJavaDoc
