@@ -24,11 +24,10 @@
 # IntelliJ
 /out/
 /target/
+/GenerJavaDoc/
 
 *.class # проігнорує всі .class файли
 # Package Files #
 *.jar
 *.war
 *.ear
-
-/GenerJavaDoc
